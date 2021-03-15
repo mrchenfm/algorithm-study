@@ -11,7 +11,12 @@ package com.cfm.algorithm.day1;
 public class MedianFromArray {
 
 	public static void main(String[] args) {
+		int[] n1 = {1,3};
+		int[] n2 = {4,5};
 
+		double medianSortedArrays = findMedianSortedArrays(n1, n2);
+
+		System.out.println(medianSortedArrays);
 	}
 
 	public static double findMedianSortedArrays(int[] n1,int[] n2){
@@ -34,13 +39,17 @@ public class MedianFromArray {
 			return n2[k+start2-1];
 		}
 
+		if(k == 1){
+			return Math.min(n1[start1],n2[start2]);
+		}
+
 		int i = start1 + Math.min(len1,k/2) - 1;
 		int j = start2 + Math.min(len2,k/2) - 1;
 
 		if(n1[i] > n2[j]){
 			return getMedian(n1,start1,end1,n2,j+1,end2,k-(j-start2+1));
 		}else {
-			return getMedian(n1,i+1,end1,n1,j+1,end1,k-(i-start2+1));
+			return getMedian(n1,i+1,end1,n2,start2,end2,k-(i-start1+1));
 		}
 	}
 
