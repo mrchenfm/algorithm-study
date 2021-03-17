@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00b5a20-7d03-414c-8c1f-a155a9bf814e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/ArraysWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/BallAaxDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/IsDoubleString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +47,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.MainElements">
+  <component name="RunManager" selected="Application.ArraysWinner">
     <configuration name="AmountOfWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day2.AmountOfWater" />
       <module name="algorithm-study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cfm.algorithm.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysWinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day3.ArraysWinner" />
+      <module name="algorithm-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cfm.algorithm.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day1.MedianFromArray" />
-      <module name="algorithm-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cfm.algorithm.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReplaceQuestionMark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day2.ReplaceQuestionMark" />
       <module name="algorithm-study" />
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysWinner" />
         <item itemvalue="Application.MainElements" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ReplaceQuestionMark" />
         <item itemvalue="Application.AmountOfWater" />
-        <item itemvalue="Application.MedianFromArray" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615814716502</updated>
-      <workItem from="1615814722038" duration="10587000" />
+      <workItem from="1615814722038" duration="14351000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1615820399235</created>
@@ -172,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615906457043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="寻找两个有序数组的中位数">
+      <created>1615906678149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615906678149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,45 +198,56 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="4" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1615814839256" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1615906455802">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1615906670740">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1615906455802" />
-    <state width="1237" height="134" key="GridCell.Tab.0.bottom" timestamp="1615906575240">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1615906670740" />
+    <state width="1237" height="197" key="GridCell.Tab.0.bottom" timestamp="1615990591632">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.0.center" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1615990591632" />
+    <state width="1237" height="197" key="GridCell.Tab.0.center" timestamp="1615990591631">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.0.left" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1615990591631" />
+    <state width="1237" height="197" key="GridCell.Tab.0.left" timestamp="1615990591631">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.0.right" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1615990591631" />
+    <state width="1237" height="197" key="GridCell.Tab.0.right" timestamp="1615990591632">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.1.bottom" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1615990591632" />
+    <state width="1237" height="197" key="GridCell.Tab.1.bottom" timestamp="1615990592002">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.1.center" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
+    <state width="1237" height="197" key="GridCell.Tab.1.center" timestamp="1615990592002">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.1.left" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
+    <state width="1237" height="197" key="GridCell.Tab.1.left" timestamp="1615990592002">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state width="1237" height="134" key="GridCell.Tab.1.right" timestamp="1615906575240">
+    <state width="1237" height="197" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
+    <state width="1237" height="197" key="GridCell.Tab.1.right" timestamp="1615990592002">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="134" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1615906575240" />
-    <state x="233" y="67" key="Vcs.Push.Dialog.v2" timestamp="1615906459156">
+    <state width="1237" height="197" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
+    <state x="233" y="67" key="Vcs.Push.Dialog.v2" timestamp="1615906680767">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="67" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1615906459156" />
+    <state x="233" y="67" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1615906680767" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/ArraysWinner.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
