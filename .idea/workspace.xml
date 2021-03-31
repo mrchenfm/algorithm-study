@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00b5a20-7d03-414c-8c1f-a155a9bf814e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/ArraysWinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/BallAaxDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/IsDoubleString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/PdfConvertHtmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/ThreadClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day4/VolatileStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day5/ArrayEventSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +43,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../source_code_study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/cfm/algorithm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.ArraysWinner">
-    <configuration name="AmountOfWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day2.AmountOfWater" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\workspace\algorithm-study\src\main\java\com\cfm\algorithm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\workspace\algorithm-study\src\main\java\com\cfm\algorithm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArrayEventSum">
+    <configuration name="ArrayEventSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day5.ArrayEventSum" />
       <module name="algorithm-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cfm.algorithm.day2.*" />
+          <option name="PATTERN" value="com.cfm.algorithm.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day2.Calculator" />
-      <module name="algorithm-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cfm.algorithm.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day2.MainElements" />
       <module name="algorithm-study" />
@@ -100,12 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceQuestionMark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day2.ReplaceQuestionMark" />
+    <configuration name="PdfConvertHtmlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.PdfConvertHtmlUtil" />
       <module name="algorithm-study" />
+      <option name="VM_PARAMETERS" value="-XX:NewRatio=2 -XX:+HeapDumpOnOutOfMemoryError -Xmx2048m -Xms2048m -XX:HeapDumpPath=d:\dump" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cfm.algorithm.day2.*" />
+          <option name="PATTERN" value="com.cfm.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +111,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VolatileStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cfm.algorithm.day4.VolatileStudy" />
+      <module name="algorithm-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cfm.algorithm.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ArraysWinner" />
+      <item itemvalue="Application.MainElements" />
+      <item itemvalue="Application.PdfConvertHtmlUtil" />
+      <item itemvalue="Application.VolatileStudy" />
+      <item itemvalue="Application.ArrayEventSum" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayEventSum" />
+        <item itemvalue="Application.PdfConvertHtmlUtil" />
+        <item itemvalue="Application.VolatileStudy" />
         <item itemvalue="Application.ArraysWinner" />
         <item itemvalue="Application.MainElements" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.ReplaceQuestionMark" />
-        <item itemvalue="Application.AmountOfWater" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +163,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615814716502</updated>
-      <workItem from="1615814722038" duration="14351000" />
+      <workItem from="1615814722038" duration="16068000" />
+      <workItem from="1616683199017" duration="1116000" />
+      <workItem from="1616685002851" duration="11789000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1615820399235</created>
@@ -182,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615906678149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day3">
+      <created>1615992271517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615992271517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,61 +218,86 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="寻找两个有序数组的中位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="寻找两个有序数组的中位数" />
+    <MESSAGE value="day3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="4" key="#Project_Structure" timestamp="1615814839256">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="4" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1615814839256" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1615906670740">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616685545298">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1615906670740" />
-    <state width="1237" height="197" key="GridCell.Tab.0.bottom" timestamp="1615990591632">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1616685545298" />
+    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1616694092796">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1615990591632" />
-    <state width="1237" height="197" key="GridCell.Tab.0.center" timestamp="1615990591631">
+    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1616694092796" />
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1615992269677">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1615990591631" />
-    <state width="1237" height="197" key="GridCell.Tab.0.left" timestamp="1615990591631">
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1615992269677" />
+    <state width="432" height="438" key="DebuggerActiveHint" timestamp="1616692146096">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1615990591631" />
-    <state width="1237" height="197" key="GridCell.Tab.0.right" timestamp="1615990591632">
+    <state width="432" height="438" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1616692146096" />
+    <state width="1237" height="227" key="GridCell.Tab.0.bottom" timestamp="1617196157696">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1615990591632" />
-    <state width="1237" height="197" key="GridCell.Tab.1.bottom" timestamp="1615990592002">
+    <state width="1237" height="227" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1617196157696" />
+    <state width="1237" height="227" key="GridCell.Tab.0.center" timestamp="1617196157696">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
-    <state width="1237" height="197" key="GridCell.Tab.1.center" timestamp="1615990592002">
+    <state width="1237" height="227" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1617196157696" />
+    <state width="1237" height="227" key="GridCell.Tab.0.left" timestamp="1617196157696">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
-    <state width="1237" height="197" key="GridCell.Tab.1.left" timestamp="1615990592002">
+    <state width="1237" height="227" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1617196157696" />
+    <state width="1237" height="227" key="GridCell.Tab.0.right" timestamp="1617196157696">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
-    <state width="1237" height="197" key="GridCell.Tab.1.right" timestamp="1615990592002">
+    <state width="1237" height="227" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1617196157696" />
+    <state width="1237" height="227" key="GridCell.Tab.1.bottom" timestamp="1617196157463">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1615990592002" />
-    <state x="233" y="67" key="Vcs.Push.Dialog.v2" timestamp="1615906680767">
+    <state width="1237" height="227" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1617196157463" />
+    <state width="1237" height="227" key="GridCell.Tab.1.center" timestamp="1617196157462">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="67" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1615906680767" />
+    <state width="1237" height="227" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1617196157462" />
+    <state width="1237" height="227" key="GridCell.Tab.1.left" timestamp="1617196157462">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="227" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1617196157462" />
+    <state width="1237" height="227" key="GridCell.Tab.1.right" timestamp="1617196157463">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="227" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1617196157463" />
+    <state x="233" y="67" key="Vcs.Push.Dialog.v2" timestamp="1615992302622">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="67" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1615992302622" />
+    <state x="93" y="93" width="1095" height="504" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616691866377">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="93" y="93" width="1095" height="504" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.689@0.0.1280.689" timestamp="1616691866377" />
+    <state x="195" y="81" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1616689333896">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="195" y="81" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.689@0.0.1280.689" timestamp="1616689333896" />
+    <state x="303" y="11" width="672" height="678" key="search.everywhere.popup" timestamp="1616687987549">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="11" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1616687987549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cfm/algorithm/day3/ArraysWinner.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cfm/algorithm/PdfConvertHtmlUtil.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
